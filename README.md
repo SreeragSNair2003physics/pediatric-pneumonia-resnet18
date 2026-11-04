@@ -92,3 +92,11 @@ The trained checkpoint (`resnet18_best.pth`, approximately 45 MB) is deliberatel
 - [TorchVision ResNet-18](https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet18)
 - [Grad-CAM implementation](https://github.com/jacobgil/pytorch-grad-cam) and [original paper](https://arxiv.org/abs/1610.02391)
 - [Scikit-learn evaluation metrics](https://scikit-learn.org/stable/modules/model_evaluation.html)
+
+- ## Development Acknowledgment
+
+This project was developed with AI assistance for code development,
+debugging, technical explanations, and documentation.
+
+Model training and evaluation were executed in Kaggle, and the
+reported results were reviewed by the repository maintainer.
