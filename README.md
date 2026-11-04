@@ -95,7 +95,7 @@ The trained checkpoint (`resnet18_best.pth`, approximately 45 MB) is deliberatel
 
 - ## Development Acknowledgment
 
-This project was developed with AI assistance for
+This project was developed with AI assistance for implementing code, 
 debugging, technical explanations, and documentation.
 
 Model training and evaluation were executed in Kaggle, and the
