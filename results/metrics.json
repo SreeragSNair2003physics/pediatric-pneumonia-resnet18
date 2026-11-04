@@ -1,0 +1,35 @@
+{
+  "model": "ResNet-18 (ImageNet transfer learning)",
+  "seed": 42,
+  "dataset": "paultimothymooney/chest-xray-pneumonia",
+  "split": "original train + val -> 85/15 stratified; official test held out",
+  "image_level_split_patient_independence_unverified": true,
+  "selection": {
+    "phase": "fine_tune",
+    "epoch": 4,
+    "val_auc": 0.9987687447990082
+  },
+  "target_validation_recall": 0.95,
+  "validation_recall": 0.9502572898799314,
+  "validation_precision": 0.9964028776978417,
+  "threshold": 0.39297768473625183,
+  "test_samples": 624,
+  "test_prevalence": 0.625,
+  "test_recall": 0.982051282051282,
+  "test_precision": 0.9011764705882352,
+  "test_roc_auc": 0.9640422967346044,
+  "confusion_matrix_normal_first": [
+    [
+      192,
+      42
+    ],
+    [
+      7,
+      383
+    ]
+  ],
+  "tn": 192,
+  "fp": 42,
+  "fn": 7,
+  "tp": 383
+}
